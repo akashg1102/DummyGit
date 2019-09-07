@@ -15,6 +15,15 @@ class MyHomeScreen extends React.Component {
       />
     );
   }
+
+  renderNew() {
+    return (
+      <Button
+        onPress={() => this.props.navigation.navigate('Notifications')}
+        title="Go to notifications"
+      />
+    );
+  }
 }
 
 class MyNotificationsScreen extends React.Component {
