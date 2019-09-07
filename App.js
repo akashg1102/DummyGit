@@ -27,15 +27,6 @@ class MyNotificationsScreen extends React.Component {
       />
     ),
   };
-
-  render() {
-    return (
-      <Button
-        onPress={() => this.props.navigation.goBack()}
-        title="Go back home"
-      />
-    );
-  }
 }
 
 const styles = StyleSheet.create({
